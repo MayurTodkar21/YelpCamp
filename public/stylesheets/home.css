@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+    url("https://media.istockphoto.com/photos/young-woman-watches-sunrise-outside-camping-tent-picture-id1248575497?b=1&k=20&m=1248575497&s=170667a&w=0&h=kuufNTbZqQFgcU55RRYBHgSvJJJTfsYKbjq6doF0DVI=");
+    background-size: cover;
+    background-position: center;
+}
+.cover-container{
+    max-width: 60vw;
+}
+
+.nav-link{
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255,255,255,0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover{
+    color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5)
+}.nav-link.activ{
+    color: white;
+    border-bottom-color: white
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none
+}
